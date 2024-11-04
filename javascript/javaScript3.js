@@ -9,6 +9,7 @@ const createArray=()=>{
         listForm.appendChild(option);
     }
 
+    document.getElementById("arraySize").innerText=fruits.length;
+
     console.log(fruits)
-    console.log(fruits.length)
 }
